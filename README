@@ -1,1 +1,10 @@
-This file was created by JetBrains RubyMine 4.5.4 for binding GitHub repository
+Nested Set App
+==============
+
+Todo:
+
+- Setup awesome nested set gem
+- Create categroy with subcategories
+- Create product management
+- Create a page where you can manage products and sort orders.
+
