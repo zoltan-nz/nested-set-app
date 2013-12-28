@@ -72,3 +72,5 @@ group :production do
   gem 'rails_12factor'
   gem 'pg'
 end
+
+gem 'awesome_nested_set',   '~> 3.0.0.rc.3'
