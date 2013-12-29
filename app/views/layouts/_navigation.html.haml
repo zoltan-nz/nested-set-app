@@ -1,0 +1,6 @@
+%nav.navbar.navbar-default
+  = link_to 'Nested Set App', root_path, class: 'navbar-brand'
+  %ul.nav.navbar-nav
+    %li{class: ac(categories_path)}=link_to 'Categories', categories_path
+    %li{class: ac(products_path)}=link_to 'Products', products_path
+    %li{class: ac(catalogs_path)}=link_to 'Catalogs', catalogs_path
