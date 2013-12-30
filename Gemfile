@@ -36,8 +36,6 @@ end
 
 
 group :development, :test do
-  gem 'sqlite3'
-
   gem 'pry-remote'
   gem 'pry-rails'
   gem 'pry-stack_explorer'
@@ -52,6 +50,7 @@ group :development, :test do
   gem 'fuubar'
 
   gem 'factory_girl_rails'
+  gem 'rb-readline', require: false
 end
 
 group :test do
