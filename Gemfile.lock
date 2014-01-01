@@ -142,6 +142,7 @@ GEM
     multi_json (1.8.2)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
+    oj (2.1.7)
     pg (0.17.1)
     poltergeist (1.5.0)
       capybara (~> 2.1)
@@ -165,6 +166,8 @@ GEM
       pry (>= 0.9.11)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
+    rabl (0.8.6)
+      activesupport (>= 2.3.14)
     rack (1.5.2)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
@@ -285,6 +288,7 @@ DEPENDENCIES
   launchy
   libnotify
   meta_request
+  oj
   pg
   poltergeist
   pry-nav
@@ -292,6 +296,7 @@ DEPENDENCIES
   pry-remote
   pry-stack_explorer
   quiet_assets
+  rabl
   rack-livereload
   rails (= 4.0.2)
   rails_12factor

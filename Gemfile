@@ -18,6 +18,8 @@ gem 'bootstrap-sass',   '~> 3.0.3'
 gem 'haml-rails',       '~> 0.5.3'
 gem 'formtastic',       '~> 2.3.0.rc2'
 gem 'formtastic-bootstrap', '~> 3.0.0.rc.2'
+gem 'rabl'
+gem 'oj'
 
 group :development do
   gem 'annotate'

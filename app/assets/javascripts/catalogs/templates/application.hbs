@@ -1,11 +1,20 @@
 <div class="page-header">
-
-        <h1>Catalogs Home Page</h1>
-
+        <h1>Catalogs</h1>
 </div>
-<nav>
-    {{#link-to 'index'}}{{/link-to}}
-</nav>
 <div class="row">
-    {{outlet}}
+    <div class="col-md-3">
+        <h3>List of catalogs</h3>
+        {{render 'catalogs' catalog}}
+        {{outlet catalogs}}
+    </div>
+    <div class="col-md-6">
+        <h3>Editing area</h3>
+        {{outlet}}
+    </div>
+    <div class="col-md-3">
+        <h3>Select from this collection</h3>
+
+    </div>
+
+
 </div>

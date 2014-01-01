@@ -1,14 +1,22 @@
-<h2>Outlets</h2>
+<h2></h2>
 
-<div class="col-md-4">
-    <div class="list-group">
-        <div class="list-group-item">
-            {{input type='text' value=newCatalog}}
+
+<div class="list-group">
+    <div class="list-group-item">
+        <div class="input-group">
+            {{input type='text' value=newCatalog class='form-control'}}
+            <span class="input-group-btn">
+                    <button class="btn btn-primary new-catalog-button" {{action 'createCatalog'}} {{bind-attr disabled=disabled}}
+                            type="button">Add
+                    </button>
+                </span>
         </div>
     </div>
-</div>
-<div class="col-md-8">
-    <div class="list-group">
-        {{outlet}}
-    </div>
+
+    {{#each}}
+
+        <div class="list-group-item">
+            {{name}}
+        </div>
+    {{/each}}
 </div>
