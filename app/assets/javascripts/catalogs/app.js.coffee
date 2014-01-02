@@ -1,3 +1,5 @@
+window.ENV = window.ENV || {}
+ENV.EXPERIMENTAL_CONTROL_HELPER = true
 Ember.ENV.EXPERIMENTAL_CONTROL_HELPER = true
 
 window.CatalogApp = Em.Application.create
@@ -83,3 +85,14 @@ CatalogApp.CategoriesController = Em.ArrayController.extend()
 CatalogApp.CategoriesCategoryController = Em.ObjectController.extend()
 
 CatalogApp.CategoriesCategoryView = Em.View.extend()
+
+CatalogApp.CategoryRootController = Ember.ObjectController.extend()
+
+CatalogApp.register('controller:categoryRoot', CatalogApp.CategoryRootController, {singleton: false})
+CatalogApp.CategoryRoot = Ember.Object.extend()
+
+CatalogApp.CategoryRootView = Ember.View.extend(
+  tagName: 'ul'
+  templateName: "category_root"
+  classNames: ['category-root']
+)

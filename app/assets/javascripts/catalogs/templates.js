@@ -19,9 +19,9 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   hashContexts = {'controlID': depth0};
   hashTypes = {'controlID': "STRING"};
   options = {hash:{
-    'controlID': ("ember13885938331581")
+    'controlID': ("ember13886180649331")
   },contexts:[depth0,depth0],types:["STRING","ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data};
-  data.buffer.push(escapeExpression(((stack1 = helpers.control || (depth0 && depth0.control)),stack1 ? stack1.call(depth0, "Categories", "App.Category", options) : helperMissing.call(depth0, "control", "Categories", "App.Category", options))));
+  data.buffer.push(escapeExpression(((stack1 = helpers.control || (depth0 && depth0.control)),stack1 ? stack1.call(depth0, "categoryRoot", "CatalogApp.CategoryRoot", options) : helperMissing.call(depth0, "control", "categoryRoot", "CatalogApp.CategoryRoot", options))));
   data.buffer.push("\n    </div>\n\n\n</div>");
   return buffer;
   
@@ -111,11 +111,20 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   hashContexts = {'controlID': depth0};
   hashTypes = {'controlID': "STRING"};
   options = {hash:{
-    'controlID': ("ember13885938331582")
+    'controlID': ("ember13886180649332")
   },contexts:[depth0,depth0],types:["STRING","ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data};
   data.buffer.push(escapeExpression(((stack1 = helpers.control || (depth0 && depth0.control)),stack1 ? stack1.call(depth0, "CategoriesCategory", "content", options) : helperMissing.call(depth0, "control", "CategoriesCategory", "content", options))));
   data.buffer.push("\n\n\n");
   return buffer;
+  
+});
+templates['category_root'] = template(function anonymous(Handlebars,depth0,helpers,partials,data) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  
+
+
+  data.buffer.push("category root");
   
 });
 templates['index'] = template(function anonymous(Handlebars,depth0,helpers,partials,data) {
