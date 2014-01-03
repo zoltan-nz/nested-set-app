@@ -1,19 +1,2 @@
-<div class="list-group">
-    <div class="list-group-item">
-        <div class="input-group">
-            {{input type='text' value=newCatalog class='form-control'}}
-            <span class="input-group-btn">
-                    <button class="btn btn-primary new-catalog-button" {{action 'createCatalog'}} {{bind-attr disabled=disabled}}
-                            type="button">Add
-                    </button>
-                </span>
-        </div>
-    </div>
 
-    {{#each}}
 
-        <div class="list-group-item">
-            {{name}}
-        </div>
-    {{/each}}
-</div>
