@@ -25,8 +25,10 @@ class App.Views.IndexView extends Backbone.View
     @
 
 class App.Models.Catalog extends Backbone.Model
+  url: '/catalogs'
   defaults:
     name: 'Empty...'
+
 
 class App.Views.Catalog extends Backbone.View
   tagName: 'li'

@@ -6,7 +6,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"page-header\">\n        <h1>Catalogs</h1>\n</div>\n<div class=\"row\">\n    <div class=\"col-md-3\">\n        <h3>List of catalogs</h3>\n        <div id=\"catalogs\"></div>\n    </div>\n    <div class=\"col-md-6\">\n        <h3>Editing area</h3>\n    </div>\n    <div class=\"col-md-3\">\n        <h3>Select from this collection</h3>\n    </div>\n\n\n</div>";
+  return "<div class=\"page-header\">\n        <h1>Catalogs 1</h1>\n</div>\n<div class=\"row\">\n    <div class=\"col-md-3\">\n        <h3>List of catalogs</h3>\n        <div id=\"catalogs\"></div>\n    </div>\n    <div class=\"col-md-6\">\n        <h3>Editing area</h3>\n    </div>\n    <div class=\"col-md-3\">\n        <h3>Select from this collection</h3>\n    </div>\n\n\n</div>";
   });
 templates['catalog'] = template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
