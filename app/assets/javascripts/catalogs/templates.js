@@ -26,7 +26,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"input-group\">\n    <input type='text' class='form-control' />\n        <span class=\"input-group-btn\">\n                <button class=\"btn btn-primary new-catalog-button\" type=\"button\">\n                    Add\n                </button>\n        </span>\n</div>\n\n";
+  return "<form class=\"form input-group\" method=\"patch\">\n    <input type='text' class='form-control edit' name=\"catalog-name\"/>\n        <span class=\"input-group-btn\">\n                <button disabled=\"disabled\" class=\"btn btn-primary new-catalog-button submit\" type=\"button\" name=\"submit\">\n                    Add\n                </button>\n        </span>\n</form>\n\n";
   });
 templates['catalogs'] = template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
@@ -34,7 +34,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "\n\n";
+  return "<ul class=\"list-group\" id=\"catalogs-list\">\n</ul>\n\n";
   });
 templates['categories'] = template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
