@@ -89,6 +89,17 @@ class App.Views.Catalogs extends Backbone.View
   addOne: (catalog) ->
     catalogView = new App.Views.Catalog(model: catalog, collection: @collection)
     @.$el.find('#catalogs-list').append(catalogView.render().el)
+  attacheSortable: ->
+  @$('ul').addClass('sortable-binded').sortable
+    items: 'li'
+    placeholder: 'sortable-placeholder'
+    dropOnEmpty: false
+    cancel: '',
+    start: (event, ui) ->
+      $('.sortable-placeholder').html($(ui.item).html())
+    update: (event, ui) ->
+      ui.item.trigger('drop', ui.item)
+
 
 class App.Views.CatalogForm extends Backbone.View
   tagName: 'li'
