@@ -38,3 +38,9 @@ Todo:
             catalog_id
             product_id
             sort_order :decimal
+            
+### Todo
+
+- build rails view version
+- build backbone view version
+- compare speed
