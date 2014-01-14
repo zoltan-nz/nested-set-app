@@ -1,1 +1,11 @@
-%h1 Home Page
+%h1 Examples
+.well
+  %h4 Nested view with ul/li
+  %ul
+  = nested_li(@categories) do |c|
+    =c.name
+
+
+.well
+  %h4 Select box with tree hierarchy
+

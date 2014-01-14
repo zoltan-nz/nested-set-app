@@ -1,22 +1,22 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.2'
+gem 'rails',              '4.0.2'
 gem 'sqlite3'
-gem 'sass-rails', '~> 4.0.0.rc1'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
-gem 'jquery-rails', '~> 3.0.4'
-gem 'jquery-ui-rails', '~> 4.1.1'
+gem 'sass-rails',         '~> 4.0.0.rc1'
+gem 'uglifier',           '>= 1.3.0'
+gem 'coffee-rails',       '~> 4.0.0'
+gem 'jquery-rails',       '~> 3.0.4'
+gem 'jquery-ui-rails',    '~> 4.1.1'
 gem 'turbolinks'
-gem 'jbuilder', '~> 1.2'
-gem 'sdoc',          group: :doc, require: false
-gem 'spring',        group: :development
+gem 'jbuilder',           '~> 1.2'
+gem 'sdoc',               group: :doc, require: false
+gem 'spring',             group: :development
 
 # My favourite gems
 gem 'jquery-turbolinks'
-gem 'bootstrap-sass',   '~> 3.0.3'
-gem 'haml-rails',       '~> 0.5.3'
-gem 'formtastic',       '~> 2.3.0.rc2'
+gem 'bootstrap-sass',       '~> 3.0.3'
+gem 'haml-rails',           '~> 0.5.3'
+gem 'formtastic',           '~> 2.3.0.rc2'
 gem 'formtastic-bootstrap', '~> 3.0.0.rc.2'
 gem 'rabl'
 gem 'oj'
