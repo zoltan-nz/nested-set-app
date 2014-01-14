@@ -9,3 +9,14 @@
 .well
   %h4 Select box with tree hierarchy
 
+:erb
+
+  <select name="city[country_id]">
+    <option value="1">South Africa</option>
+    <option value="3">Somalia</option>
+    <option style="text-indent: 20px" value="7" selected="selected">Denmark</option>
+    <option style="text-indent: 20px" value="2">Ireland</option>
+    <option style="text-indent: 40px" value="7" selected="selected">Denmark</option>
+    <option style="text-indent: 40px" value="2">Ireland</option>
+  </select>
+

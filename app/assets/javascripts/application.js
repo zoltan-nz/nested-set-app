@@ -14,4 +14,6 @@
 //= require jquery.turbolinks
 //= require jquery_ujs
 //= require bootstrap
+//= require bootstrap-multiselect
+//= require select2
 //= require turbolinks
