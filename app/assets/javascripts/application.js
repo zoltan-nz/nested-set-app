@@ -17,3 +17,5 @@
 //= require bootstrap-multiselect
 //= require select2
 //= require turbolinks
+//= require welcome
+
